@@ -61,7 +61,7 @@ The `data-key` attribute is used to insert data into the element. The value of t
 	<ol></ol>
 ```
 
-(demo)['http://felix.lovassy.hu/projects/gellert/mycee/']
+[demo](http://felix.lovassy.hu/projects/gellert/mycee/)
 
 
 methods
