@@ -28,12 +28,9 @@ The `data-key` attribute is used to insert data into the element. The value of t
 ``` html
 	<!-- index.html -->
 	...
-
 	<link type="text/bundle" href="./bundles.html">
 
-
 	<script type="text/javascript" src="./index.js"></script>
-
 	...
 ```
 
@@ -42,27 +39,20 @@ The `data-key` attribute is used to insert data into the element. The value of t
 
 ``` html
 	<!-- index.html -->
-	...
-	
+	...	
 	<script>
 		$(function () {
-
 			$('ol').before(mycee.close());
 
 			var students = [{ name: 'Jack', class, '3.B' }, { name: 'Kiddo', class, '6.A' }];
-
 			for (var i in students) $('ol').append(mycee.student(students[i]));
-
 		});
 	</script>
-
 	...
 
 	<ol></ol>
 ```
-
 [demo](http://felix.lovassy.hu/projects/gellert/mycee/)
-
 
 methods
 -----------------------------
