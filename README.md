@@ -1,7 +1,7 @@
 mycee
 =============================
 
-Create simple raw HTML bundles. Currently requires jQuery.
+Sometimes you don't want to write a to-do list. Create simple HTML bundles. Currently requires jQuery.
 
 1. create
 -----------------------------
